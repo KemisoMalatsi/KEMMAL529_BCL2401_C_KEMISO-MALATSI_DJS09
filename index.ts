@@ -43,6 +43,61 @@ const you: {
     stayedAt: ['Cape Town', 'Pretoria', 'Rustenburg']
 }
 
+// Propeties
+const propeties  : {
+    image: string;
+    title: string;
+    price: number;
+    location: {
+        firstLine: string;
+        city: string;
+        code: number;
+        country: string;
+    };
+    contact: string;
+    isAvailable: boolean;
+}[] = [
+    {
+        image: '',
+        title: 'Luxury Apartment',
+        price: 45,
+        location: {
+            firstLine: '123 Main',
+            city: 'Cape Town',
+            code: 8000,
+            country: 'South Africa'
+    },
+    contact: 'info@luxuryapartment.com',
+    isAvailable: true
+    },
+    {
+        image: '',
+        title: 'Polish Cottage',
+        price: 34,
+        location: {
+            firstLine: 'no 23',
+            city: 'Gdansk',
+            code: 343903,
+            country: 'Poland'
+    },
+    contact: 'garydavis@hotmail.com',
+    isAvailable: false
+    },
+    {
+        image: '',
+        title: 'London Flat',
+        price: 23,
+        location: {
+            firstLine: 'flat 15',
+            city: 'London',
+            code: 35433,
+            country: 'United Kingdom',
+        },
+        contact: 'andyluger@aol.com',
+        isAvailable: true
+    }
+]
+
 // Functions
 showReviewTotal(reviews.length, reviews[0].name, reviews[0].loyaltyUser)
 
