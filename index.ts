@@ -58,7 +58,7 @@ const propeties  : {
     isAvailable: boolean;
 }[] = [
     {
-        image: '',
+        image: './public/images/colombia-property.jpg',
         title: 'Luxury Apartment',
         price: 45,
         location: {
@@ -71,7 +71,7 @@ const propeties  : {
     isAvailable: true
     },
     {
-        image: '',
+        image: './public/images/poland-property.jpg',
         title: 'Polish Cottage',
         price: 34,
         location: {
@@ -84,7 +84,7 @@ const propeties  : {
     isAvailable: false
     },
     {
-        image: '',
+        image: './public/images/london-property.jpg',
         title: 'London Flat',
         price: 23,
         location: {
